@@ -1,0 +1,44 @@
+/* Using a class selector */
+.container {
+    width: 80%;
+    margin: 0 auto;  
+    padding: 20px;
+    border: 2px solid #333;
+    text-align: center; 
+}
+
+/* Using an ID selector */
+#header {
+    background-color: lime;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Using a tag selector */
+h1 {
+    font-family: 'Georgia', serif;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+/* Styling an image */
+img {
+    max-width: 100%;
+    height: auto;
+    border: 5px solid lightcoral;
+    padding: 5px;
+    margin: 0 auto 20px auto; 
+    display: block;  
+}
+
+/* Specific margin and padding for paragraph */
+p {
+    margin: 15px 0;
+    padding: 10px;
+    color: limegreen;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: blue;
+}
